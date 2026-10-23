@@ -1,0 +1,1 @@
+v5.6 — Page moved to far right; Design Inspector moved immediately left of page. Page auto-fits available viewport on load and resize with scrollbars disabled. Editor maximizes on launch. Zoom is limited to fit so entire page remains visible. Existing rich-text formatting preserved.

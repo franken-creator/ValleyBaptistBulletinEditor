@@ -1,0 +1,8 @@
+v5.1 Publisher Church Name
+- Publisher Settings now includes Change Church Name (Publisher Only).
+- Only an authenticated Publisher can save a church name; Administrators and staff cannot.
+- The church name is saved separately in LocalAppData and survives application restarts.
+- MainWindow and PublisherPageEditor headers use the same persisted church name.
+- Paper preset name changes no longer alter the app header.
+- Page-only autosave and manual settings saves remain separate.
+- Windows WPF build and runtime tests not performed in this environment.

@@ -1,0 +1,9 @@
+v4.9 — Page Setup and physical print corrections
+- Page Setup now focuses on paper/print controls; text typography remains in the Design Inspector.
+- Print builder scales existing 528x816 canvas objects to the actual physical page/panel size, honoring paper width and height.
+- Safe margin applies to canvas content, and X/Y print offsets translate the full panel.
+- Preprinted stock suppresses decorative backgrounds/borders while retaining bulletin text and inserted images.
+- Editor locked-cover preview now honors blank, hidden, and picture modes.
+- Preserves v4.8 page-only autosave and v4.7 expanded named colors.
+- Save Page Setup remains manual and requires Publisher/Admin.
+- IMPORTANT: This source was not compiled on Windows in this environment.

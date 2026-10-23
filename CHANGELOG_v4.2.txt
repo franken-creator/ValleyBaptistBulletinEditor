@@ -1,0 +1,1 @@
+v4.2: Expanded named page colors; Page Background ribbon dialog with drag-and-drop, clipboard paste, browse, remove, brightness (20%-180%), embedded background images in bulletin JSON, background rendered behind text in editor and print preview. Preserves v4.1 undo/redo and Publisher permissions.

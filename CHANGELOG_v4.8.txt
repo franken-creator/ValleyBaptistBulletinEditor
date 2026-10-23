@@ -1,0 +1,1 @@
+v4.8 Page-only autosave: every 2 seconds when changed, and on close. Restores last edited pages on launch, and per-file drafts on Open. Manual Save remains full bulletin save. Drafts stored in LocalAppData, not in manually saved files.

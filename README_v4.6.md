@@ -1,0 +1,1 @@
+v4.6: Selecting a named text color in the right Design Inspector immediately changes the selected text box color without requiring login or Apply Formatting. Changes are saved in bulletin JSON and printed with the same color. Page layout controls remain Publisher/Admin-only. Windows build not verified.

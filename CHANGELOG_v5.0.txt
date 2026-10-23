@@ -1,0 +1,5 @@
+v5.0 Dynamic Header
+- Page Setup paper preset name updates the bulletin editor header and window title as it is typed.
+- Save Settings persists the selected name; Cancel restores the previous header.
+- Main application header and title load the active saved paper preset name and refresh when the window regains focus.
+- Preserves all v4.9 features and access rules.

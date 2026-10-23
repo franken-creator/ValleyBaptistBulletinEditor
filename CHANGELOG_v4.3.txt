@@ -1,0 +1,1 @@
+v4.3: Design Inspector font/text color now uses named colors instead of hex codes. Includes 32 named choices, keyboard navigation, swatch preview, and compatibility with existing saved custom colors. Text colors continue to save as hex internally for backwards compatibility.

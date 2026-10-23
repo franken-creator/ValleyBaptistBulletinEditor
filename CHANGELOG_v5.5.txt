@@ -1,0 +1,1 @@
+v5.5 - Rich text editing: selected characters only; collapsed caret formatting for next typing; paragraph alignment; serialized FlowDocument XAML stored with bulletin/page drafts; print preview renders rich text. Legacy plain text remains supported.

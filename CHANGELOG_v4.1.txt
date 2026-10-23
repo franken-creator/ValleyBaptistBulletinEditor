@@ -1,0 +1,1 @@
+v4.1: Named page-color dropdown with arrow-key live preview, Apply/Cancel. Ctrl+Z undo and Ctrl+Y redo with bulletin snapshots for text, colors, objects and layout edits. Windows WPF compilation must be verified in Visual Studio.

@@ -1,0 +1,1 @@
+v5.4: Design Inspector text controls fixed. Font family, bold, alignment update selected text immediately; font size updates on Enter or leaving the field. Selection changes are guarded against unwanted edits. Layout-only controls remain Publisher-protected. Based on v5.3. Windows build not verified.
