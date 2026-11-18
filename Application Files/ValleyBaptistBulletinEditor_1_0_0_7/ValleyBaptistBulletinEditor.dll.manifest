@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ValleyBaptistBulletinEditor.exe" version="1.0.0.7" publicKeyToken="2f03760909427dfa" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="18216">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Cu+EV0Xzy5t7OmNKoTRbdkJcUOmGe904adCIVXWM7Sg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ValleyBaptistBulletinEditor.deps.json" size="529">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MQZKlqXcRLmCSP3Jh2kadj+BoidkTFEwuAbKAjiWJpU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ValleyBaptistBulletinEditor.dll" size="237352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NGwNfb3A/6oDttn6lS2XbVSyc3mUJ1Hlco6BKJnMpvo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ValleyBaptistBulletinEditor.exe" size="164136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QEBH723TOQmuBImeNZlY7cjkmyho8Z20MyW1AK0tkKw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ValleyBaptistBulletinEditor.runtimeconfig.json" size="519">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lrwpRt/4eQQA1lLsf43nuwQ+lUmA1ZRwwRJ4i2ih+9M=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Valley Baptist Bulletin Editor" issuerKeyHash="2ec9429250540ace2590924360b6ebcae697008c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tqfTXBfpTYOR9Jle3mWuRRrtxUTqGwyl94kqVmq6Cz0=</DigestValue></Reference></SignedInfo><SignatureValue>Pqr+K2zSRLtIzFH19cRTSlznRo7bq/QNUzYjHr2UrSRXm4bIZmPsmSIbjYNxCoMmcr18J/DUTfgjfU5Rs5Ciy9nx6pjOaV46Gy0EYZJQMF03YbVKg6Hqd2M5cDoEeP1U3G609iWuTxxdqpK8wat7CQa5eSaAla/FsAxBW2+MNvasQhz+k70Fsyif6zqHnh36cjiC7A/qeceR7u3BjtciHq+Sg9+Opxv0xA/rdJZ9Sz//y3EHo1oAWBd2BCTecg8qb8rOr41Ht1JwIXH9kVlMGVEBJ7XV/94fMzrekuJqzQ5/V/HxJ0TJ2mrLac6fmPp9a6uaWVNosIf4YWvGWMfbHNsJzjvOjoy6UhQAVAksndRb5u+BCw2Z7xD95U5/yMpkugeHT71esffa15QeXQIGIe6zdazpktbDMCRa3DjNcZ/CtOC5MDhDDD3hb9Ic9L48UeaiQaUqToVItCijlx72I6Y7ExAq6y+xTAr/hO7uev3TkA3FbBam7Icnsw0z6UuS</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sHQSTZ5EdWiFfTqaW7B42x4DkRpVXjeyH3BU2jwtQZLXYFDeATp7+Hey7NJ4jxlNUVORP6ISkVGtWVHFmxzLI6lUdxvF79P5tLl+lZNBuTFCT5c7hTSb9K5tq1qkeeADkgR9ekI+Nxhu44kkT1yRODduwdlQkDVvbfRXghdm+ATAFUsKwqUJeEYIrht7BH0wOxjg2r5Ezb9hdCa97E0eyiK6RfSrwbn1c+NiO4tOwtQgOCHpK/KX/j+3v6YexwgIJRCOM3Ph47vqQXidazN9alGQNLGEDi0aFR1cvzSQBOrey6vpf2qN1RHtkrdVdxnJ5Brpoj+sKwhJKPxvwAqvVK9NLMiX2czhCOo+3pSPtysKA1KXuD12I2Jr9CunKTVKC0TNlgGS9AH91XSoTDsQN80BjxN+NOZpSup3fInOYVAct7ERI0xiwKCXUA51yMrnKWWUWl1jLXB67/4u9qO8Gb5/ULnxKfzR79pCH+b8EOOS0kqDL83MUG2tztQFfiBx</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3d0bba6a562a89f7a50c1bea44c5ed1a45ae65de5e99f491834de9175cd3a7b6" Description="" Url=""><as:assemblyIdentity name="ValleyBaptistBulletinEditor.exe" version="1.0.0.7" publicKeyToken="2f03760909427dfa" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Valley Baptist Bulletin Editor</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hWY/QiuYQhnwkqrcJnfUR8wOggpFcJVNmrfhoWnv18A=</DigestValue></Reference></SignedInfo><SignatureValue>WvCY7N3fG6nA5BZ3P3As+mjBry8wWyoCBVYyR00hpD7/3txBk3cKpfQ9fNUARRsTzlfkTJ9NKYtVJAXOd7QgstzR51+spcvKpkLYB/1accKlZV2XRDM4DLu6Qx9Xk3lqLpyqMS4n8vwurtvPzKRMxXYkme71U4no5CnG3M/v061QE0SaCZfKOoCoYTZKM8xSVwib+C5uWXY8r4lkeOW74Lz5KrTvX2+jeQ48s8fdSYYEhwa6NI0E3LxWrTsoCRxZkY6N3Z687QnfD6k5Jl0Z2PkXG+Cofu8SBu53J/Bb/hJ8qzGLbp3+8ru0ZpnRb8KsSov7K9uzummLyJwSVXphbXXLqaZWlMEXRJzoG9jd+o+e5KWIhSv2tpJEXr1TcGKFB9CUpYozP7KcOcrL8SyfGQkZ64zG/SDmcc6O4LRaPN/3kwMUtl5b4zPLXTB5sBOxPaynYgw/ruM92qfbJ8+orcp6iCgdNrxCkbnQ8RVwGk8lEcKyiUnv1BwUQ1JXVx/e</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sHQSTZ5EdWiFfTqaW7B42x4DkRpVXjeyH3BU2jwtQZLXYFDeATp7+Hey7NJ4jxlNUVORP6ISkVGtWVHFmxzLI6lUdxvF79P5tLl+lZNBuTFCT5c7hTSb9K5tq1qkeeADkgR9ekI+Nxhu44kkT1yRODduwdlQkDVvbfRXghdm+ATAFUsKwqUJeEYIrht7BH0wOxjg2r5Ezb9hdCa97E0eyiK6RfSrwbn1c+NiO4tOwtQgOCHpK/KX/j+3v6YexwgIJRCOM3Ph47vqQXidazN9alGQNLGEDi0aFR1cvzSQBOrey6vpf2qN1RHtkrdVdxnJ5Brpoj+sKwhJKPxvwAqvVK9NLMiX2czhCOo+3pSPtysKA1KXuD12I2Jr9CunKTVKC0TNlgGS9AH91XSoTDsQN80BjxN+NOZpSup3fInOYVAct7ERI0xiwKCXUA51yMrnKWWUWl1jLXB67/4u9qO8Gb5/ULnxKfzR79pCH+b8EOOS0kqDL83MUG2tztQFfiBx</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIEIjCCAoqgAwIBAgIQa3DoXmJL56tPeRdLGtPSkjANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDDB5WYWxsZXkgQmFwdGlzdCBCdWxsZXRpbiBFZGl0b3IwHhcNMjYxMTE3MjE0MDMwWhcNMzExMTE3MjE1MDI3WjApMScwJQYDVQQDDB5WYWxsZXkgQmFwdGlzdCBCdWxsZXRpbiBFZGl0b3IwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCwdBJNnkR1aIV9OppbsHjbHgORGlVeN7IfcFTaPC1BktdgUN4BOnv4d7Ls0niPGU1RU5E/ohKRUa1ZUcWbHMsjqVR3G8Xv0/m0uX6Vk0G5MUJPlzuFNJv0rm2rWqR54AOSBH16Qj43GG7jiSRPXJE4N27B2VCQNW9t9FeCF2b4BMAVSwrCpQl4RgiuG3sEfTA7GODavkTNv2F0Jr3sTR7KIrpF9KvBufVz42I7i07C1CA4Iekr8pf+P7e/ph7HCAglEI4zc+Hju+pBeJ1rM31qUZA0sYQOLRoVHVy/NJAE6t7Lq+l/ao3VEe2St1V3GcnkGumiP6wrCEko/G/ACq9Ur00syJfZzOEI6j7elI+3KwoDUpe4PXYjYmv0K6cpNUoLRM2WAZL0Af3VdKhMOxA3zQGPE3405mlK6nd8ic5hUBy3sREjTGLAoJdQDnXIyucpZZRaXWMtcHrv/i72o7wZvn9QufEp/NHv2kIf5vwQ45LSSoMvzcxQba3O1AV+IHECAwEAAaNGMEQwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMB0GA1UdDgQWBBQuyUKSUFQKziWQkkNgtuvK5pcAjDANBgkqhkiG9w0BAQsFAAOCAYEAO3YBGFXGXyUDJt+XyB0D8gTjnNexDVTlH9ZGmJ6tN3ro8BGnQHXXWk2bo2U1dQP0HJzp4QScaavwaWJKQKnLCUAnCsEFje2GMzz4n0tNPWZRUo4csD83HdyGLGdbbwtE78SmZAjcFH1ugnZk5HBw5B9Yv7r/0vzPEYOXbHMLm2cX5JPZGtlNgyHILSYrfpDWc9ywByBgMX9FKQjy6/lWQZ+9geChr7ROzP4okfBTogFlPTjoHkknGNIsSlX62M+m3TKDIa80vQ60mhS+ovwsZYrKehFQUc1fhT2NWM7rewYd6T5PruLQpZNOi+hjC+VfXR9nD/5T9K3WW//7UVn28P2RmfxCkqPUzslVOpzChi/8TUwf4bUmSkUdIP99Nk0+xAplGathYRcjFMgr8UmJ1uwpjwfyFReYbQ3sMLkFJLYvuoPinbJkBQrncqbqJ5bI0pZEVBTODHQm+SY5KnN8Nbrnvrkl5tKD1NQt25VM6WZABpI2N10zcXR2s4yWLH0B</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
